@@ -85,8 +85,9 @@ class DefaultFirebaseOptions {
   );
 }
 
-// IMPORTANT: This is a template file. 
+// IMPORTANT: This is a template file.
 // 1. Copy this file to firebase_options.dart
 // 2. Replace all placeholder values with your actual Firebase configuration
 // 3. NEVER commit the real firebase_options.dart file to Git
 // 4. Use environment variables or secure configuration management for production
+

@@ -1,0 +1,72 @@
+
+
+flutter clean
+flutter pub get
+flutter run
+
+
+
+flutter doctor
+flutter pub add permission_handler
+flutter pub run build_runner build
+flutter pub add firebase_storage
+
+
+
+
+
+flutter pub add flutter_local_notifications
+
+utils
+
+Do You Need It?
+Yes, if your app has multiple pages and you want consistent styles.
+For a small app with basic styling, you can manage this directly in main.dart.
+
+models
+
+Do You Need It?
+Yes, if your app has complex data (like storing or retrieving reminders from a database or API).
+If reminders are simple (e.g., only managed in memory), you can skip this for now.
+
+
+widgets
+
+Do You Need It?
+Yes, if buttons in your app share a consistent style.
+For unique button styles on each screen, you can skip this.
+
+
+
+
+
+
+flutter clean
+cd android
+./gradlew clean
+cd ..
+
+cd android
+
+gradle wrapper --gradle-version 8.2.1
+
+
+
+cd android
+.\gradlew.bat wrapper --gradle-version 8.2.1
+cd ..
+
+
+
+
+Remove-Item -Path "android/.gradle" -Recurse -Force -ErrorAction SilentlyContinue
+Remove-Item -Path "android/build" -Recurse -Force -ErrorAction SilentlyContinue
+Remove-Item -Path "android/app/build" -Recurse -Force -ErrorAction SilentlyContinue
+
+
+flutter clean
+flutter pub get
+cd android
+.\gradlew.bat clean
+cd ..
+flutter build apk --debug
