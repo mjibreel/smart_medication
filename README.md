@@ -54,31 +54,7 @@ Smart Medication is an intuitive health management app that combines medication 
 ![Login Screen](login.png)
 *Secure login interface with email and password authentication*
 
-## 🚀 Getting Started
 
-### Prerequisites
-- Flutter SDK (latest stable version)
-- Dart SDK
-- Android Studio / Xcode (for mobile development)
-- VS Code (recommended for development)
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/mjibreel/smart_medication.git
-   cd smart_medication
-   ```
-
-2. **Install dependencies**
-   ```bash
-   flutter pub get
-   ```
-
-3. **Run the app**
-   ```bash
-   flutter run
-   ```
 
 ## 🏗️ Project Structure
 
@@ -117,47 +93,22 @@ lib/
 - Daily water intake monitoring (8 glasses)
 - Weekly health check scheduling
 
-### **Emergency Features**
-- Quick doctor contact access
-- Emergency contact management
-- Health information display
 
-## 🔧 Configuration
 
-The app supports multiple platforms:
-- **Android** - Full native support
-- **iOS** - Full native support  
-- **Web** - Progressive web app
-- **Desktop** - Windows, macOS, Linux
 
-## 🛡️ Security
 
-- Secure authentication system
-- Encrypted data storage
-- Privacy-focused design
-- No sensitive data logging
 
-## 🤝 Contributing
+## 👨‍💻 Author
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+**Mohamed Hassan Jibril**
+- **GitHub:** [mjibreel](https://github.com/mjibreel)
+- **LinkedIn:** [moh-jibril](https://www.linkedin.com/in/moh-jibril)
 
 ## 👨‍💻 Developer
 
 **Mohammad Jibreel** - [GitHub Profile](https://github.com/mjibreel)
 
-## 🙏 Acknowledgments
 
-- Flutter team for the amazing framework
-- Health and wellness community for inspiration
-- Open source contributors
 
 ---
 
